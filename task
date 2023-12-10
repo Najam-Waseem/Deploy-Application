@@ -10,6 +10,5 @@ cd -
 git add .
 git commit -m "task 1 practice"
 
-git push https://${USERNAME}:${TOKEN}@github.com/{USERNAME}/-W_Assignments.git master
-
+git push https://${USERNAME}:${TOKEN}@github.com/{USERNAME}/-W_Assignments.git origin main
 
