@@ -1,6 +1,6 @@
 #!/bin/bash
-USERNAME= "Najam-Waseem"
-TOKEN= "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"
+GITHUB_USERNAME= "Najam-Waseem"
+GITHUB_TOKEN= "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"
 
 mkdir task_1
 cd task_1
@@ -10,5 +10,5 @@ cd -
 git add .
 git commit -m "task 1 practice"
 
-git push https://${USERNAME}:${TOKEN}@github.com/{USERNAME}/-W_Assignments.git origin main
+git push https://${GITHUB_USERNAME}:${GITHUB_TOKEN}@github.com/${USERNAME}/-W_Assignments.git master
 
